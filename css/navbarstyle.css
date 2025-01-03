@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+}
+ul li {
+  display: inline;
+  list-style: square;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 1rem;
+  border-radius: 1rem 0;
+}
+.blocks {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid green;
+  height: auto;
+  padding: 8px;
+  width: 45%;
+  margin-top: 1rem;
+}
+.photo {
+  float: right;
+  height: 170px;
+  width: 170px;
+}
+
+.leftt {
+  float: left;
+}
